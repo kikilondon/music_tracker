@@ -12,3 +12,6 @@ venv.bak/
 ######################
 .DS_Store
 .DS_Store?
+
+
+_pycache

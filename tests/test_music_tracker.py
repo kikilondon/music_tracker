@@ -15,13 +15,11 @@ def test_if_song_is_added():
 
 def test_if_song_is_not_string():
     with pytest.raises(ValueError):
-        
         music_tracker = MusicTracker()
         assert music_tracker.add(87) == "input is not a string"
 
 def test_if_song_is_a_boolean():
     with pytest.raises(ValueError):
-        
         music_tracker = MusicTracker()
         assert music_tracker.add(True) == "input is not a string"
 

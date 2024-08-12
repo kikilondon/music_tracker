@@ -3,10 +3,7 @@ class MusicTracker:
     #   name: string
 
     def __init__(self):
-        # Parameters:
         self.music_list= []
-        # Side effects:
-        #   Sets the name property of the self object
         return 
 
     def add(self, song):
@@ -17,8 +14,4 @@ class MusicTracker:
         return  self.music_list.append(song)
 
     def display(self):
-        # Returns:
-        #   A list of songs 
-        # Side-effects:
-        #   Throws an exception if no task is set
         return self.music_list
