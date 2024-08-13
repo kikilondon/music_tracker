@@ -3,7 +3,7 @@ import pytest
 
 
 
-def test_check_lempty_list():
+def test_check_empty_list():
     music_tracker = MusicTracker()
     assert music_tracker.display() == []
 
