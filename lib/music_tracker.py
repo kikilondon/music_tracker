@@ -1,10 +1,6 @@
 class MusicTracker:
-    # User-facing properties:
-    #   name: string
-
     def __init__(self):
         self.music_list= []
-        return 
 
     def add(self, song):
         if not isinstance(song,str):
