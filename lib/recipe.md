@@ -16,26 +16,27 @@ _Include the initializer, public properties, and public methods with all paramet
 ```python
 # EXAMPLE
 
-class MusicTracker:
+class MusicTracker():
     # User-facing properties:
     #   name: string
 
     def __init__(self):
+     
         # Parameters:
         # music_list= []
         # Side effects:
         #   Sets the name property of the self object
         pass # No code here yet
 
-    def add(self, song):
+    def add_(self, song):
         # Parameters:
-        song = "" string 
         #   task: string representing a single song
         # Returns:
         #   Nothing
         # Side-effects
         #   add new song to list 
         pass # No code here yet
+   
 
     def display(self):
         # Returns:
@@ -43,6 +44,7 @@ class MusicTracker:
         # Side-effects:
         #   Throws an exception if no task is set
         pass # No code here yet
+
 ```
 
 ## 3. Create Examples as Tests
@@ -56,33 +58,41 @@ _Make a list of examples of how the class will behave in different situations._
 Check if the list is empty - initialise the object
 
 """
-def test_check_lempty_list():
+def test_check_empty_list():
+   music_tracker = MusicTracker()
    assert 
-   return empty list
+   empty list or # => []
 """
 Check if the song is added
 
 """
 def test_if_song_is_added():
+   music_tracker = MusicTracker()
    assert 
-   return boolean
+   boolean # => boolean
 
 """
 Check if song is not a string 
 
 """
 def test_if_song_is_not_string():
+   music_tracker = MusicTracker()
    assert 
-   return no string
-
-  
+   error message # =>"input is not a string"
 """
 Check if multiple songs are added
 
 """
 def test_if_multiple_songs_are_added():
+   music_tracker = MusicTracker()
    assert 
-   return list of multiple songs
+   error message # => "This song has already been added"
+
+"""
+Check type of data
+"""
+
+
 
 
 ```
