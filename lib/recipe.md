@@ -88,13 +88,6 @@ def test_if_multiple_songs_are_added():
    assert 
    error message # => "This song has already been added"
 
-"""
-Check type of data
-"""
-
-
-
-
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
